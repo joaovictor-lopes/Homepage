@@ -1,0 +1,123 @@
+/* Comentarios em css */
+* { 
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+	}
+html {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62,5%; /* é equivalente a 10px */
+
+
+}
+
+body {
+	background-color: #;
+	
+}
+.imagem1 {
+	border-radius: 100%;
+	width: 100%;
+}
+ 
+.imagem2 { border-radius: 100%;
+
+}
+
+ h1, h2, p, li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+.titulo, .titulo2, .rodape {
+	color: white;
+}
+
+
+
+
+a {
+	color: white;
+	text-decoration: none;
+
+}
+#primeiro-link a {
+	color: #933;
+
+}
+
+ul {
+	background-color: ;
+	font-size: 20px; /* Elemento pai utiliza-se px ou pixels */
+
+}
+ul li {
+	font-size: .8em; /* em é o elemento filho 8=80% de 20px */ 
+	/* 1.6rem é igual a 16px, utilizado para altura de elemento e tamanho de fonte*/
+
+}
+.navegacao {
+	background-color: ;
+}
+
+header {
+	background-color: #579d2f;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+	float: left;
+	width: 30%;
+    background: #579d2f;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+/* Style the list inside the menu */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	color: white;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 67%;
+	background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	
+}
+
+/* Clear floats after the columns */
+section::after {
+	background: #ccc;
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Style the footer */
+footer {
+	background-color: #b70000;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+}
+
+/
+
+}
+</style>
